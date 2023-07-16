@@ -1,4 +1,8 @@
+#index{
+    background-image: url(./image/blue\ \ pic.jpg);
+}
 #c{
+    /* background-image: url(./image/blue\ \ pic.jpg); */
     border:2px solid;
     height: 300px;
     width: 600px;
@@ -6,26 +10,36 @@
     margin-top: 200px;
 }
 #ch{
+    color: #f1a78c;
     font-size: 50px;
 }
 #cm{
+   color: black;
    border:2px solid;
    height:80px;
    width: 140px;
    margin-left: 230px;
    margin-top: 15px;
    border-radius: 15px;
-   font-size: 20px;
+   font-size: 29px;
+}
+#game{
+    background-image: url(./image/sky.jpg);
+}
+body{
+    background-image: url(./image/sea\ img.jpg);
 }
 #g{
-    border:2px solid;
+    /* border:2px solid; */ 
+    /* background-image: url(./image/sky.jpg); */
     height: 500px;
     width: 450px;
     margin-left: 450px;
     margin-top: 50px;
 }
 #g1{
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
     margin-left: 100px;
 }
 #g2{
@@ -36,16 +50,18 @@
     margin-left: 140px;
 }
 #k1{
+    background-color:rgb(179, 179, 235);
     border: 2px solid;
     height: 60px;
     width:120px;
     margin-left: 162px;
     margin-top: 15px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 22px;
 }
 #h{
-    border: 2px solid;
+    color: black;
+    /* border: 2px solid; */
     height: 40px;
     width:160px;
     margin-left: 140px;
@@ -53,15 +69,19 @@
     font-size: large;
 } 
 #high{
+    background-color: rgb(179, 216, 124);
     border: 2px solid;
-    height: 60px;
-    width:240px;
-    margin-left: 100px;
-    margin-top: 20px;
+    height: 30px;
+    width:160px;
+    margin-left: 140px;
+    margin-top: 30px;
     font-size: 20px;
+    border-radius: 15px;
 }
 #win,#loss{
-    border: 2px solid;
+    /* background-image: url(./image/sea\ img.jpg); */
+    color:rgb(224, 26, 26);
+    /* border: 2px solid; */
     height: 50px;
     width: 300px;
     margin-left: 500px;

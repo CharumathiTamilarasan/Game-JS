@@ -15,12 +15,12 @@ function sub()
     }
     else if((random>g2)&&live!=0)
     {
-        document.getElementById('h').innerHTML="Remaining live is"+live;
+        document.getElementById('h').innerHTML="Remaining live is "+live;
         document.getElementById('high').innerHTML="Your guess is low";
     }
     else if((random<g2)&&live!=0)
     {
-        document.getElementById('h').innerHTML="Remaining live is"+live;
+        document.getElementById('h').innerHTML="Remaining live is "+live;
         document.getElementById('high').innerHTML="Your guess is high";
     }
 }
